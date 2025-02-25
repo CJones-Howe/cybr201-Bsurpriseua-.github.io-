@@ -14,12 +14,13 @@ body {
 }
 @media (max-width: 760px) {
   .nav-links {
-    flex-direction: column;
+/*    flex-direction: column;
     position: absolute;
     top: 60px;
     left: 0;
     width: loo%;
     padding: 10px 0;
+    */
   }
   .nav-link li {
     text-align: center;
