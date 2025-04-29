@@ -1,11 +1,24 @@
-let name = "Crystal";
-let age = 25;
-let isStudent = true;
+body {background-color: #E0EFFA}
+h1 {color: #365AF9} 
+h1, h2 {text-align: center}
+#para1 {font-size: 200%; text-align: center; color: #0022FA}
+a {color: red}
+.nav-links {
+	display: flex;
+	list-style: none;
+	
+}
 
-document.getElementById("demo1").innerHTML = "Name: " + name + "<br>Age: " + age + "<br>Student: " + isStudent;
+.nav-links li {
+	padding: 15px;
+}
 
-var city = "Albany";
-let state = "NY";
-const country = "USA";
-
-document.getElementById("demo2").innerHTML = "Location: " + city + ", " + state + ", " + country;
+.nav-links a {
+	color: Black;
+	text-decoration: none;
+	font-size: 30px;
+}
+.nav-links a:hover{
+	color: red;
+	font-size: 45px;
+}
