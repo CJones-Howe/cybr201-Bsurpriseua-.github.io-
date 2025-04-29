@@ -1,21 +1,8 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: Arial, sans-serif;
-	background-color: skyblue;
-	text-align: center;
-}
-
-header {
-	background-color: darkgrey;
-	color: white;
-	padding: 15px;
-	
-}	
-
+body {background-color: #E0EFFA}
+h1 {color: #365AF9} 
+h1, h2, h3 {text-align: center}
+#para1 {font-size: 200%; text-align: center; color: #0022FA}
+a {color: red}
 .nav-links {
 	display: flex;
 	list-style: none;
@@ -27,13 +14,13 @@ header {
 }
 
 .nav-links a {
-	color: hotpink;
+	color: Black;
 	text-decoration: none;
 	font-size: 30px;
 }
 .nav-links a:hover{
 	color: red;
-	font-size: 60px;
+	font-size: 45px;
 }
 
 /*.nav-links a:visited {
